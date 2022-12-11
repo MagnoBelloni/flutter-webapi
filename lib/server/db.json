@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "email": "teste@teste.com",
+      "password": "$2a$10$lwLk6S8lHWkb6.mM.pE0XeFWUYy.Q66h3V2BVFAPAb0nPGP8D1.Ku",
+      "id": 1
+    },
+    {
+      "email": "a@a.com",
+      "password": "$2a$10$YIX5rbRbPi6SOoq3GZX4SuG/tHaUOdRzsru3hPlYCuERYHtDY3P2O",
+      "id": 2
+    }
+  ],
+  "journals": [
+    {
+      "id": "c0473340-74f3-11ed-8f2b-6f0b4a9ade17",
+      "content": "a",
+      "created_at": "2022-11-28 20:22:41.233046",
+      "updated_at": "2022-11-28 20:22:41.233046",
+      "userId": 2
+    },
+    {
+      "id": "79097530-7816-11ed-88fb-a3ec51536ebd",
+      "content": "AA",
+      "created_at": "2022-12-01 23:08:47.693961",
+      "updated_at": "2022-12-01 23:08:47.693961",
+      "userId": 2
+    },
+    {
+      "id": "f610d890-79a4-11ed-ad09-ff109d336b23",
+      "content": "CC",
+      "created_at": "2022-12-11 22:41:21.909963",
+      "updated_at": "2022-12-11 22:41:21.909963",
+      "userId": 1
+    },
+    {
+      "id": "1dbc5540-79a5-11ed-8c20-279e8ad31656",
+      "content": "A",
+      "created_at": "2022-12-09 22:42:21.452527",
+      "updated_at": "2022-12-09 22:42:21.452527",
+      "userId": 1
+    },
+    {
+      "id": "4b8edfa0-79a6-11ed-84c2-f74eda8836b2",
+      "content": "teste",
+      "created_at": "2022-12-02 22:51:02.953865",
+      "updated_at": "2022-12-02 22:51:02.953865",
+      "userId": 1
+    }
+  ]
+}
