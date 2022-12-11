@@ -1,16 +1,12 @@
 import 'dart:convert';
 import 'dart:io';
-
-import 'package:flutter_webapi_first_course/services/http_interceptor.dart';
+import 'package:flutter_webapi_first_course/services/webclient.dart';
 import 'package:http/http.dart' as http;
-import 'package:http_interceptor/http/http.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AuthService {
-  static const String url = "http://192.168.0.10:3000/";
-
-  http.Client client =
-      InterceptedClient.build(interceptors: [LoggingInterceptor()]);
+  String url = WebClient.url;
+  http.Client client = WebClient().client;
 
   Future<bool> login({required String email, required String password}) async {
     http.Response response = await client.post(

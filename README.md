@@ -5,7 +5,7 @@ Repositório do Curso de Flutter com Web API - Integrando sua Aplicação, da Al
 ## Parar Rodar o Server
 
 - cd lib/server
-- json-server --watch --host seu ip aqui db.json
+- - json-server-auth --watch --host seuip  db.json -r routes.json
 - json-server-auth --watch --host 192.168.0.10  db.json -r routes.json
 
 ## ✔️ Técnicas e tecnologias
